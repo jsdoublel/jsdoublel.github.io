@@ -33,7 +33,7 @@ In 2002, Kleinberg proposed three axioms for distance-based clustering, and prov
 ```
 </details>
 
-## DISCO+ QR: rooting species trees in the presence of GDL and ILS.
+## DISCO+QR: rooting species trees in the presence of GDL and ILS.
 
 #### Abstract
 
@@ -44,13 +44,13 @@ Genes evolve under processes such as gene duplication and loss (GDL), so that ge
 
 [Full Paper](https://doi.org/10.1093/bioadv/vbad015)
 
-> Willson, James, Yasamin Tabatabaee, Baqiao Liu, and Tandy Warnow. "DISCO+ QR: rooting species trees in the presence of GDL and ILS." *Bioinformatics Advances* 3, no. 1 (2023): vbad015.
+> Willson, James, Yasamin Tabatabaee, Baqiao Liu, and Tandy Warnow. "DISCO+QR: rooting species trees in the presence of GDL and ILS." *Bioinformatics Advances* 3, no. 1 (2023): vbad015.
 <details>
 	<summary class="bibtex">bibtex</summary>
 
 ```
 @article{willson2023disco+,
-  title={{DISCO+ QR}: rooting species trees in the presence of {GDL} and {ILS}},
+  title={{DISCO+QR}: rooting species trees in the presence of {GDL} and {ILS}},
   author={Willson, James and Tabatabaee, Yasamin and Liu, Baqiao and Warnow, Tandy},
   journal={Bioinformatics Advances},
   volume={3},
