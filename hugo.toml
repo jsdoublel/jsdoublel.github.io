@@ -11,7 +11,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     description = "Computer Science PhD Student at the University of Illinois Urbana-Champaign" 
     dark_mode = true                      
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
-	hideToc = true
+	# hideToc = true
 	uglyURLs = true
 
     # front_page_content = ["About"] # Equivalent to the default value, add page bundle names to include them on the front page.
@@ -45,7 +45,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     moon_sun_background_color = "#515151"   # default is #515151
     moon_sun_color = "#FFF"                 # default is #FFF
     sidebar_a_color = "#FFF"                # default is #FFF
-    sidebar_bg_color = "#202020"            # default is #202020
+    sidebar_bg_color = "#101010"            # default is #202020
     sidebar_h1_color = "#FFF"               # default is #FFF
     sidebar_img_border_color = "#515151"    # default is #515151
     sidebar_p_color = "#909090"             # default is #909090
@@ -56,9 +56,9 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     code_background_color_dark = "#515151"          # default is #515151
     code_block_color_dark = "#FFF"                  # default is #FFF
     code_block_background_color_dark = "#272822"    # default is #272822
-    content_bg_color_dark = "#121212"               # default is #121212
+    content_bg_color_dark = "#101010"               # default is #121212
     date_color_dark = "#9A9A9A"                     # default is #9A9A9A
-    link_color_dark = "#268BD2"                     # default is #268BD2
+    link_color_dark = "#A9D0EF"                     # default is #268BD2
     list_color_dark = "#9D9D9D"                     # default is #9D9D9D
     post_title_color_dark = "#DBE2E9"               # default is #DBE2E9
     table_border_color_dark = "#515151"             # default is #515151
@@ -84,3 +84,9 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+

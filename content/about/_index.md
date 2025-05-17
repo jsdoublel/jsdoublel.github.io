@@ -5,7 +5,7 @@ title = 'About'
 layout = 'single'
 +++
 
-# Placeholder about text
+# About Me
 
 ### Research/Technical Experience
 
