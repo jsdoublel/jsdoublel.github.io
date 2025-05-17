@@ -1,6 +1,6 @@
 +++
 date = '2025-05-16T19:44:07-05:00'
-draft = true
+draft = false
 title = 'About'
 layout = 'single'
 +++
