@@ -33,7 +33,9 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     # discord_url = "https://discord.com"
     email_url = "mailto:jamessw3@illinois.edu"
     github_url = "https://github.com/jsdoublel"
-    linkedin_url = "https://www.linkedin.com/in/jamessw3/"
+    # linkedin_url = "https://www.linkedin.com/in/jamessw3/"
+	orcid_url = "https://orcid.org/0000-0002-8496-3597"
+	google_scholar_url = "https://scholar.google.com/citations?user=DmWcoVEAAAAJ&hl=en"
 
     # NOTE: If you don't want to use RSS, comment or delete the following lines
     # Adds an RSS icon to the end of the socials which links to {{ .Site.BaseURL }}/index.xml
