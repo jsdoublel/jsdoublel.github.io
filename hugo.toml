@@ -8,11 +8,11 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 [params]
     brand = "James Willson"                      
     brand_image = "/images/James.jpg"    
-    description = "Computer Science PhD Student at the University of Illinois Urbana-Champaign" 
+    description = "PhD Student—Siebel School of Computing and Data Science, University of Illinois Urbana-Champaign" 
     dark_mode = true                      
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
 	# hideToc = true
-	uglyURLs = true
+	# uglyURLs = true
 
     # front_page_content = ["About"] # Equivalent to the default value, add page bundle names to include them on the front page.
 
