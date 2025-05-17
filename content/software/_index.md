@@ -5,4 +5,6 @@ title = 'Software'
 layout = 'single'
 +++
 
+# Software
+
 DISCO is a piece of software. It exists.

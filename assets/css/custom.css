@@ -1,0 +1,48 @@
+.sidebar-about h1 {
+  font-size: 1.4em;
+  font-family: "Go Mono", monospace;
+  text-align: left;
+}
+
+.sidebar-about p {
+  font-size: 1em;
+  font-family: "IBM Plex Serif Text", serif;
+  text-align: left;
+}
+
+.sidebar-nav li {
+  font-family: "IBM Plex Serif Text", serif;
+  text-align: left;
+}
+
+.sidebar-nav {
+	margin-bottom: 7rem
+}
+
+.info h1 {
+  font-family: "Go Mono", monospace;
+}
+
+.post h1 {
+  font-family: "Go Mono", monospace;
+}
+
+.post h2 {
+  font-family: "Go Mono", monospace;
+}
+
+.post h3 {
+  font-family: "Go Mono", monospace;
+}
+
+.post h4 {
+  font-family: "Go Mono", monospace;
+}
+
+.post p {
+  font-family: "IBM Plex Serif", serif;
+}
+
+.post li {
+  font-family: "IBM Plex Serif", serif;
+}
