@@ -23,9 +23,14 @@
   text-align: left;
 }
 
-.sidebar-nav {
-	margin-bottom: 7rem
+.sidebar-sticky p {
+  font-family: "IBM Plex Serif Text", serif;
+  text-align: left;
 }
+
+/* .sidebar-nav { */
+/* 	margin-bottom: 7rem */
+/* } */
 
 .info h1 {
   font-family: "Go Mono", monospace;
@@ -47,12 +52,21 @@
   font-family: "Go Mono", monospace;
 }
 
+.content h1 {
+  font-family: "Go Mono", monospace;
+}
+
 .post p {
   font-family: "IBM Plex Serif", serif;
 }
 
 .post li {
   font-family: "IBM Plex Serif", serif;
+}
+
+.content p {
+  font-family: "IBM Plex Serif", serif;
+  text-align: left;
 }
 
 /* Go Mono Regular */
