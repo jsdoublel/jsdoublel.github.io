@@ -12,7 +12,6 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     dark_mode = true                      
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
 	# hideToc = true
-	# uglyURLs = true
 
     # front_page_content = ["About"] # Equivalent to the default value, add page bundle names to include them on the front page.
 
@@ -60,24 +59,12 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     code_block_background_color_dark = "#272822"    # default is #272822
     content_bg_color_dark = "#101010"               # default is #121212
     date_color_dark = "#9A9A9A"                     # default is #9A9A9A
-    link_color_dark = "#A9D0EF"                     # default is #268BD2
+    link_color_dark = "#A6A6A6" #"#A9D0EF"                     # default is #268BD2
     list_color_dark = "#9D9D9D"                     # default is #9D9D9D
     post_title_color_dark = "#DBE2E9"               # default is #DBE2E9
     table_border_color_dark = "#515151"             # default is #515151
     table_stripe_color_dark = "#202020"             # default is #202020
     text_color_dark = "#EEE"                        # default is #EEE
-
-    # NOTE: If using Remark42 as commenting engine, uncomment and configure these lines
-    # remark42 = true
-    # remark42_host = "https://yourhost.com"
-    # remark42_site_id = "your_site_id"
-
-    # NOTE: The following three params are optional and are used to create meta tags + enhance SEO.
-    # og_image = ""                       # path to social icon - front matter: image takes precedent, then og_image, then brand_url
-                                          # this is also used in the schema output as well. Image is resized to max 1200x630
-                                          # For this to work though og_image and brand_url must be a path inside the assets directory
-                                          # e.g. /assets/images/site/og-image.png becomes images/site/og-image.png
-    # publisher_icon = ""                 # path to publisher icon - defaults to favicon, used in schema
 
 [taxonomies]
     series = 'series'
