@@ -29,7 +29,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     ]
 
     # Links to your socials.  Comment or delete any you don't need/use. 
-    # discord_url = "https://discord.com"
+    discord_url = "https://discordapp.com/users/284735328726548480"
     email_url = "mailto:jamessw3@illinois.edu"
     github_url = "https://github.com/jsdoublel"
     # linkedin_url = "https://www.linkedin.com/in/jamessw3/"
