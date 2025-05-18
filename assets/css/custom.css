@@ -19,9 +19,14 @@
 }
 
 .sidebar-nav li {
-  font-family: "IBM Plex Serif Text", serif;
+  font-family: "Go Mono", monospace;
   text-align: left;
 }
+
+/* .sidebar-nav li { */
+/*   font-family: "IBM Plex Serif Text", serif; */
+/*   text-align: left; */
+/* } */
 
 .sidebar-sticky p {
   font-family: "IBM Plex Serif Text", serif;
@@ -58,6 +63,7 @@
 
 .post h4 {
   font-family: "Go Mono", monospace;
+  font-size: 1.1em;
 }
 
 .content h1 {
