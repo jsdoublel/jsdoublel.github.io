@@ -8,7 +8,7 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
 [params]
     brand = "James Willson"                      
     brand_image = "/images/James.jpg"    
-    description = "PhD Student—Siebel School of Computing and Data Science, University of Illinois Urbana-Champaign" 
+    description = "CS PhD Student—Siebel School of Computing and Data Science, University of Illinois Urbana-Champaign" 
     dark_mode = true                      
     favicon = "/images/eraserhead.png"             # path to favicon (defaults to favicon.png)
 	# hideToc = true

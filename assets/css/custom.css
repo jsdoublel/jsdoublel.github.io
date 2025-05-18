@@ -33,6 +33,10 @@
   text-align: left;
 }
 
+social {
+	text-align: left;
+}
+
 .article-toc li {
   font-size: 1em;
   font-family: "Go Mono", monospace;
