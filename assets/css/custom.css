@@ -72,6 +72,15 @@
 
 .post p {
   font-family: "IBM Plex Serif Text", serif;
+  color: #AAA;
+}
+
+.post blockquote {
+	background: #222;
+}
+
+.post blockquote p {
+	color: #EEE;
 }
 
 .post li {
@@ -91,8 +100,8 @@ pre > code {
 }
 
 .post summary {
-	/* font-size: 0.8em; */
-	font-family: "Go Mono", monospace;
+	font-size: 1.1em;
+	font-family: "IBM Plex Serif Text", serif;
 }
 
 /* Go Mono Regular */
