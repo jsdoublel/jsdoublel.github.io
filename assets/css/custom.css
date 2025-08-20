@@ -252,3 +252,26 @@ pre > code {
   font-style: italic;
 }
 
+/* Keep About at top and push footer to bottom on wide screens */
+@media (min-width: 48em) {
+  .sidebar-sticky {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+  /* push socials + footer to bottom as a group */
+  .sidebar-socials {
+    margin-top: auto;
+  }
+  /* keep social icons in a row, tighter spacing */
+  .sidebar-socials {
+    display: flex;
+    align-items: center;
+    gap: 0; /* use theme's .social margin */
+    flex-wrap: wrap;
+  }
+  /* ensure footer sits just below socials (not claiming the auto margin) */
+  .sidebar-sticky .footnote {
+    margin-top: 0;
+  }
+}
