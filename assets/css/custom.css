@@ -7,9 +7,12 @@
 }
 
 .sidebar-about h1 {
-  font-size: 1.4em;
   font-family: "Go Mono", monospace;
   text-align: left;
+}
+
+.sidebar-about .site-brand {
+  font-size: 1.4em;
 }
 
 .sidebar-about p {
@@ -35,6 +38,11 @@
 
 social {
 	text-align: left;
+}
+
+/* Left-align socials on mobile (theme centers .sidebar) */
+.sidebar-socials {
+  text-align: left;
 }
 
 .article-toc li {
@@ -114,6 +122,7 @@ pre > code {
   src: url('/fonts/Go-Mono.woff') format('woff');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Go Mono Italic */
@@ -122,6 +131,7 @@ pre > code {
   src: url('/fonts/Go-Mono-Italic.woff') format('woff');
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
 }
 
 /* Go Mono Bold */
@@ -130,6 +140,7 @@ pre > code {
   src: url('/fonts/Go-Mono-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Go Mono Bold Italic */
@@ -138,6 +149,7 @@ pre > code {
   src: url('/fonts/Go-Mono-Bold-Italic.woff') format('woff');
   font-weight: 700;
   font-style: italic;
+  font-display: swap;
 }
 
 /* IBM Plex Serif Regular */
@@ -146,6 +158,7 @@ pre > code {
   src: url('/fonts/IBMPlexSerif-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 /* IBM Plex Serif Italic */
@@ -154,6 +167,7 @@ pre > code {
   src: url('/fonts/IBMPlexSerif-Italic.woff') format('woff');
   font-weight: 400;
   font-style: italic;
+  font-display: swap;
 }
 
 /* IBM Plex Serif Thin */
@@ -162,6 +176,7 @@ pre > code {
   src: url('/fonts/IBMPlexSerif-Thin.woff') format('woff');
   font-weight: 100;
   font-style: normal;
+  font-display: swap;
 }
 
 /* IBM Plex Serif Thin Italic */
@@ -170,6 +185,7 @@ pre > code {
   src: url('/fonts/IBMPlexSerif-ThinItalic.woff') format('woff');
   font-weight: 100;
   font-style: italic;
+  font-display: swap;
 }
 
 /* IBM Plex Serif ExtraLight */
@@ -178,6 +194,7 @@ pre > code {
   src: url('/fonts/IBMPlexSerif-ExtraLight.woff') format('woff');
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
 }
 
 /* IBM Plex Serif ExtraLight Italic */
@@ -186,6 +203,7 @@ pre > code {
   src: url('/fonts/IBMPlexSerif-ExtraLightItalic.woff') format('woff');
   font-weight: 200;
   font-style: italic;
+  font-display: swap;
 }
 
 /* IBM Plex Serif Light */
@@ -194,6 +212,7 @@ pre > code {
   src: url('/fonts/IBMPlexSerif-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
 /* IBM Plex Serif Light Italic */
@@ -202,6 +221,7 @@ pre > code {
   src: url('/fonts/IBMPlexSerif-LightItalic.woff') format('woff');
   font-weight: 300;
   font-style: italic;
+  font-display: swap;
 }
 
 /* IBM Plex Serif Medium */
@@ -210,6 +230,7 @@ pre > code {
   src: url('/fonts/IBMPlexSerif-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 /* IBM Plex Serif Medium Italic */
@@ -218,6 +239,7 @@ pre > code {
   src: url('/fonts/IBMPlexSerif-MediumItalic.woff') format('woff');
   font-weight: 500;
   font-style: italic;
+  font-display: swap;
 }
 
 /* IBM Plex Serif SemiBold */
@@ -226,6 +248,7 @@ pre > code {
   src: url('/fonts/IBMPlexSerif-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 /* IBM Plex Serif SemiBold Italic */
@@ -234,6 +257,7 @@ pre > code {
   src: url('/fonts/IBMPlexSerif-SemiBoldItalic.woff') format('woff');
   font-weight: 600;
   font-style: italic;
+  font-display: swap;
 }
 
 /* IBM Plex Serif Bold */
@@ -242,6 +266,7 @@ pre > code {
   src: url('/fonts/IBMPlexSerif-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 /* IBM Plex Serif Bold Italic */
@@ -250,27 +275,24 @@ pre > code {
   src: url('/fonts/IBMPlexSerif-BoldItalic.woff') format('woff');
   font-weight: 700;
   font-style: italic;
+  font-display: swap;
 }
 
-/* Keep About at top and push footer to bottom on wide screens */
 @media (min-width: 48em) {
   .sidebar-sticky {
     display: flex;
     flex-direction: column;
     min-height: 100%;
   }
-  /* push socials + footer to bottom as a group */
   .sidebar-socials {
     margin-top: auto;
   }
-  /* keep social icons in a row, tighter spacing */
   .sidebar-socials {
     display: flex;
     align-items: center;
-    gap: 0; /* use theme's .social margin */
+    gap: 0;
     flex-wrap: wrap;
   }
-  /* ensure footer sits just below socials (not claiming the auto margin) */
   .sidebar-sticky .footnote {
     margin-top: 0;
   }
