@@ -43,10 +43,10 @@ pluralizelisttitles = false   # removes the automatically appended "s" on sideba
     # rss_section = "posts"
 
     # Hex colors for your sidebar.
-    moon_sun_background_color = "#515151"   # default is #515151
-    moon_sun_color = "#FFF"                 # default is #FFF
+    # moon_sun_background_color = "#515151"   # default is #515151
+    # moon_sun_color = "#FFF"                 # default is #FFF
     sidebar_a_color = "#FFF"                # default is #FFF
-    sidebar_bg_color = "#101010"            # default is #202020
+    sidebar_bg_color = "#202020"            # default is #202020
     sidebar_h1_color = "#FFF"               # default is #FFF
     sidebar_img_border_color = "#515151"    # default is #515151
     sidebar_p_color = "#909090"             # default is #909090
