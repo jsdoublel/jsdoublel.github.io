@@ -1,0 +1,9 @@
+<img
+  src="{{ .Destination | safeURL }}"
+  alt="{{ with .Text }}{{ . }}{{ else }}{{ .Title }}{{ end }}"
+  {{ with .Title }}title="{{ . | safeHTMLAttr }}"{{ end }}
+  loading="lazy"
+  decoding="async"
+  referrerpolicy="no-referrer"
+/>
+

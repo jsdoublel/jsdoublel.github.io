@@ -1,0 +1,22 @@
+<div class="sidebar-about">
+    <h1 class="brand">
+        {{ if .Site.Params.remote_brand_image }}
+            <a href="{{ .Site.BaseURL }}">
+                <img src="{{ .Site.Params.remote_brand_image }}" alt="{{ .Site.Params.brand | default .Site.Title }}" loading="lazy" decoding="async" width="180" height="180">
+            </a>
+        {{ else if .Site.Params.brand_image }}
+            <a href="{{ .Site.BaseURL }}">
+                <img src="{{ .Site.Params.brand_image }}" alt="{{ .Site.Params.brand | default .Site.Title }}" loading="lazy" decoding="async" width="180" height="180">
+            </a>
+        {{ end }}
+        {{ if .Site.Params.brand }}
+            <a href="{{ .Site.BaseURL }}">
+                <span class="site-brand">{{ .Site.Params.brand }}</span>
+            </a>
+        {{ end }}
+    </h1>
+    <p class="lead">
+    {{ with .Site.Params.description }}{{. | safeHTML}}{{end}}
+    </p>
+</div>
+
