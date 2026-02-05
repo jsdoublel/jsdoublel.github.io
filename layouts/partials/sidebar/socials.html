@@ -58,6 +58,13 @@
         </svg>
     </a>
 {{ end }}
+{{ if .Site.Params.letterboxd_url }}
+    <a target="_blank" class="social" title="Letterboxd" href="{{ .Site.Params.letterboxd_url }}">
+        <svg width="1.3em" height="1.3em" viewBox="55 175 390 150" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor" fill-rule="evenodd" d="M 61 250 a 70.079 70 0 1 0 140.158 0 a 70.079 70 0 1 0 -140.158 0 M 179.921 250 a 70.079 70 0 1 0 140.158 0 a 70.079 70 0 1 0 -140.158 0 M 298.842 250 a 70.079 70 0 1 0 140.158 0 a 70.079 70 0 1 0 -140.158 0" />
+        </svg>
+    </a>
+{{ end }}
 {{ if .Site.Params.mastodon_url }}
     <a target="_blank" class="social" rel="me" title="Mastodon" href="{{ .Site.Params.mastodon_url }}">
         <svg xmlns="http://www.w3.org/2000/svg" width="1.2em" height="1.2em" viewBox="0 0 24 24">
