@@ -8,6 +8,41 @@ layout = 'single'
 # Publications
 ---
 
+## CAMUS: Scalable Phylogenetic Network Estimation
+
+#### Abstract
+
+**Motivation:**
+Phylogenetic networks are models of evolution that go beyond trees, and so represent reticulate events such as horizontal gene transfer or hybridization, which are frequently found in many taxa. Yet, the estimation of phylogenetic networks is extremely computationally challenging, and nearly all methods are limited to very small datasets with perhaps 10 to 15 species (some limited to even smaller numbers). 
+
+**Results:**
+We introduce CAMUS (Constrained Algorithm Maximizing qUartetS), a scalable method for phylogenetic network estimation. CAMUS takes an input constraint tree T as well as a set Q of unrooted quartet trees that it derives from input, and returns a level-1 phylogenetic network N that is built upon T through the addition of edges, in order to maximize the number of quartet trees in Q that are induced in N. We perform a simulation study under the Network Multi-Species Coalescent and show that a simple pipeline using CAMUS provides high accuracy and outstanding speed and scalability, in comparison to two leading methods, PhyloNet-MPL used with a fixed tree and SNaQ. CAMUS is slightly less accurate than PhyloNet-MPL used without a fixed tree, but is much faster (minutes instead of hours) and can complete on inputs with 201 species while PhyloNet-MPL fails to complete on the inputs with more than 51 species. 
+
+<!--**Availability and Implementation:**
+The source code is available at [https://github.com/jsdoublel/camus](https://github.com/jsdoublel/camus).-->
+
+[bioRxiv](https://doi.org/10.64898/2026.02.01.703143)
+
+> Willson, James, and Tandy Warnow. "CAMUS: Scalable Phylogenetic Network Estimation" *bioRxiv preprint* bioRxiv:2026.02.01.703143 (2026).
+
+<details>
+	<summary class="bibtex">bibtex</summary>
+
+```
+@article {willson2026camus,
+	author = {Willson, James and Warnow, Tandy},
+	title = {CAMUS: Scalable Phylogenetic Network Estimation},
+	elocation-id = {2026.02.01.703143},
+	year = {2026},
+	doi = {10.64898/2026.02.01.703143},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2026/02/05/2026.02.01.703143},
+	eprint = {https://www.biorxiv.org/content/early/2026/02/05/2026.02.01.703143.full.pdf},
+	journal = {bioRxiv}
+}
+```
+</details>
+
 ## Axioms for clustering simple unweighted graphs: No impossibility result.
 
 #### Abstract
