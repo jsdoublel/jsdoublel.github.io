@@ -29,16 +29,13 @@ The source code is available at [https://github.com/jsdoublel/camus](https://git
 	<summary class="bibtex">bibtex</summary>
 
 ```
-@article {willson2026camus,
-	author = {Willson, James and Warnow, Tandy},
-	title = {CAMUS: Scalable Phylogenetic Network Estimation},
-	elocation-id = {2026.02.01.703143},
-	year = {2026},
-	doi = {10.64898/2026.02.01.703143},
-	publisher = {Cold Spring Harbor Laboratory},
-	URL = {https://www.biorxiv.org/content/early/2026/02/05/2026.02.01.703143},
-	eprint = {https://www.biorxiv.org/content/early/2026/02/05/2026.02.01.703143.full.pdf},
-	journal = {bioRxiv}
+@article{willson2026camus,
+  title={CAMUS: Scalable Phylogenetic Network Estimation},
+  author={Willson, James and Warnow, Tandy},
+  journal={bioRxiv},
+  pages={2026--02},
+  year={2026},
+  publisher={Cold Spring Harbor Laboratory}
 }
 ```
 </details>
